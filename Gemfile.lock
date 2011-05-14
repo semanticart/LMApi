@@ -1,0 +1,11 @@
+GEM
+  specs:
+    json (1.5.1)
+    nokogiri (1.4.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json (= 1.5.1)
+  nokogiri (= 1.4.4)
