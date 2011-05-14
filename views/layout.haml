@@ -1,0 +1,16 @@
+!!! Strict
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "text/html; charset=iso-8859-1", "http-equiv" => "Content-Type"}/
+    %meta{:name => "viewport", :content => "initial-scale=1.0, user-scalable=no"}
+
+    %link{:href => "http://twitter.github.com/bootstrap/1.3.0/bootstrap.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/stylesheets/app.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    %title LMApi - Live Music Archive (unofficial) API
+
+  %body
+    = yield
+
+    #footer
+      :textile
+        "LMApi":/ is a product of "Jeffrey Chupp":http://semanticart.com | "@semanticart":http://twitter.com/semanticart | "LMApi development":http://github.com/semanticart/lmapi on github

@@ -1,0 +1,9 @@
+%h1= params[:artist]
+
+%ul
+  %li
+    %a{:href => lmalink(@artist.details_link)} details page
+  %li
+    %a{:href => lmalink(@artist.shows_link)}
+      = @artist.show_count
+      = @artist.show_count == '1' ? "show" : "shows"

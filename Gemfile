@@ -1,2 +1,15 @@
-gem 'nokogiri', '1.4.4'
-gem 'json', '1.5.1'
+source :rubygems
+
+gem 'json'
+gem 'sinatra'
+gem 'RedCloth'
+gem 'haml'
+
+gem 'dm-core'
+gem 'dm-postgres-adapter'
+gem 'dm-migrations'
+
+gem 'nokogiri', :group => :development
+
+gem 'rack-test', :group => :development
+gem 'ruby-debug19', :group => :development
