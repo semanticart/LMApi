@@ -7,3 +7,5 @@
     %a{:href => lmalink(@artist.shows_link)}
       = @artist.show_count
       = @artist.show_count == '1' ? "show" : "shows"
+  %li
+    %a{href: "#{params[:artist]}.json"} view as json
