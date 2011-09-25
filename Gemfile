@@ -2,7 +2,7 @@ source :rubygems
 
 gem 'json'
 gem 'sinatra'
-gem 'RedCloth'
+gem 'rdiscount'
 gem 'haml'
 
 gem 'dm-core'

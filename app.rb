@@ -11,6 +11,10 @@ class LMApi < Sinatra::Base
     def lmalink(url)
       "http://archive.org#{url}"
     end
+
+    def readme
+      @@readme ||= Markdown.new(File.read(File.dirname(__FILE__) + "/README.md")).to_html
+    end
   end
 
   get '/' do
