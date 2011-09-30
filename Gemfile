@@ -1,5 +1,7 @@
 source :rubygems
 
+gem 'thin'
+
 gem 'json'
 gem 'sinatra'
 gem 'rdiscount'
